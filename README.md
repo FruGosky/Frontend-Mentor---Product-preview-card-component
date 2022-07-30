@@ -1,4 +1,4 @@
-What i was trying to do (what i did (./screenshot.jpg) ):
+What i was trying to do:
 
 # Frontend Mentor - Product preview card component
 
