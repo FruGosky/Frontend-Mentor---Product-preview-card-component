@@ -4,7 +4,6 @@
     <title>Frontend Mentor | Product preview card component</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 </head>
@@ -12,7 +11,7 @@
 <body>
   <div id="main">
     <div id="leftSide">
-      <img src="./images/image-product-desktop.jpg" alt="Product photo"/>
+      <img src="./images/image-product-desktop.jpg" id="perfume" alt="Product photo"/>
     </div>
 
     <div id="rightSide">
@@ -28,11 +27,19 @@
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </div>
-  
-      $149.99<br>
-      $169.99<br>
-  
-      Add to Cart
+      
+      <div id="mainPrice">
+        $149.99
+      </div>
+
+      <div id="previousPrice">
+        $169.99
+      </div>
+      <div id="button" onClick="window.location.reload();">
+        <button>
+          <img src="./images/icon-cart.svg" id="cart"/><h4>Add to Cart</h3>
+        </button>
+      </div>
     </div>
   </div>
 
