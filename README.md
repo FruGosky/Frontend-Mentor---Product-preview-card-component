@@ -1,3 +1,5 @@
+I will be glad to hear some hints what to improve/learn next time :)
+
 What i was trying to do:
 
 # Frontend Mentor - Product preview card component
