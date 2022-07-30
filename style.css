@@ -6,16 +6,56 @@
     color: hsl(228, 45%, 44%);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&family=Montserrat:wght@100&display=swap');
+
 body {
     background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 #main {
-    /* background-color: black; */
-    width: 1440px;
-    height: 720px;
-    color:hsl(228, 12%, 48%)
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    width: 740px;
+    height: 540px;
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    border-radius: 10px;
 }
+
+img {
+    float: left;
+    height: 540px;
+    width: 370px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#leftSide {
+    float: left;
+    width: 370px;
+}
+
+#rightSide {
+    float: right;
+    width: 370px;
+}
+
+#title {
+    font-family: 'Fraunces', serif;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+
+
 
 /*
 # Front-end Style Guide
@@ -32,7 +72,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Dark cyan: hsl(158, 36%, 37%) //Price
-- Cream: hsl(30, 38%, 92%) //Overroll background
+- Cream: hsl(30, 38%, 92%) //Overroll background ||USED||
 
 ### Neutral
 
