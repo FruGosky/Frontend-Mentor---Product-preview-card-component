@@ -1,4 +1,8 @@
 .attribution {
+    position: fixed;
+    bottom: 10px;
+    align-items: center;
+    width: 1440px;
     font-size: 11px; text-align: center; 
 }
 
@@ -29,7 +33,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    margin-bottom: 275px;
     border-radius: 10px;
 }
 
