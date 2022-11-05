@@ -1,4 +1,4 @@
-Preview site: https://frugosky.github.io/Frontend-Mentor---Product-preview-card-component-CSS-HTML/
+Preview site: https://frugosky.github.io/Product-preview-card-component-CSS-HTML/
 
 I will be glad to hear some hints what to improve/learn next time :)
 
